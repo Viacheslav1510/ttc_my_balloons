@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555;
+}
+
+h1 {
+    font-size:
+        3em;
+    color:
+        #609;
+    font-weight: 400;
+    font-family: "Courier New", Courier, monospace;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #4c0072;
+    background-color: #f0e6f5;
+    padding: 0.5em;
+    margin-bottom: 0;
+
+}
+
+h2,
+h3,
+h4,
+label {
+    color: #99007f;
+}
+
+h2,
+label {
+    font-style:
+        italic;
+    font-size:
+        1.5em;
+    background-color: #f0e6f5;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+
+}
+
+h3 {
+
+    border-bottom: 1px solid;
+    padding-bottom: 0.25em;
+}
+
+a:link {
+    color: purple;
+}
+
+a:visited {
+    color: #876399;
+}
+
+a:hover {
+    color: #339900;
+}
+
+.introduction {
+
+    font-size: 1.5em;
+    color: #72005f;
+    font-style: italic;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #d9eece;
+    border: 1px #4c0072 solid;
+    border-top: none;
+    display: flex;
+}
+
+.navigation a {
+
+
+    text-decoration-line: none;
+    color: #226800;
+    font-weight: bold;
+    display: block;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    padding-right: 1em;
+    padding-left: 1em;
+
+}
+
+.navigation a:hover {
+    background-color: #C4E8B1;
+}
+
+.map {
+    transition: width 1s;
+}
+
+.map:hover {
+    height: 500px;
+    width: 750px;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    padding: 10px;
+    margin: 10px;
+}
+
+details {
+
+    padding: 1px;
+}
+
+label,
+input,
+textarea {
+
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form {
+    width: 30em;
+}
+
+.form-control {
+    margin-bottom: 1em;
+}
+
+textarea {
+    min-height: 10em;
+}
+
+
+.form-control input,
+.form-control textarea {
+    padding: 0.5em;
+    /* More space inside the boxes */
+}
+
+input,
+textarea {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+button {
+    position: relative;
+
+}
